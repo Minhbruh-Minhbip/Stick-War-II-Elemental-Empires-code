@@ -1,0 +1,326 @@
+<Campaign>
+<level title="Remnants of Chaos: The Gatekeepers" number="1" map="11" story="The Order had slain the wicked Medusa years ago, leading a race of elementals out of enslavement. But now, Order has changed, and the once peaceful nation now hungers for blood and glory after countless years of warfare. Every empire on the face of the planet bears their arms and prepare for another period of chaos. Can the weakened Elemental slaves escape with their lives, or will they crumble like the rebel statues around them?" controller="CampaignTutorial" points="0">
+<player race="Elemental" statueHealth="1500" >
+<raceName>V's Army</raceName>
+<statue>v</statue>
+</player>
+
+<oponent race="Chaos" statueHealth="750">
+<raceName>Kai's gatekeepers</raceName>
+<unit>Knight</unit>
+<unit>Dead</unit>
+<unit>ChaosMiner</unit>
+<unit>Cat</unit>
+<startingUnit>ChaosMiner</startingUnit>
+<startingUnit>ChaosMiner</startingUnit>
+<startingUnit>ChaosMiner</startingUnit>
+<startingUnit>ChaosMiner</startingUnit>
+<startingUnit>ChaosMiner</startingUnit>
+<startingUnit>ChaosMiner</startingUnit>
+<startingUnit>ChaosMiner</startingUnit>
+</oponent>
+<normal>1.0</normal>
+<hard>.6</hard>
+<insane>.45</insane>
+<normalHealthScale>.8</normalHealthScale>
+<normalDamageScale>1.0</normalDamageScale>
+<tip>Tip: Earth is a good choice</tip>
+<tipHard>Wait! You lose this level? I think you can't play this mode. Try Newbie mode pls!</tipHard>
+
+</level>
+
+<level title="Remnants of Chaos: Eclipsors and Bomber attack" number="2" map="0" story="We are currently in Kai's control zone. This time they had an army flying around for long-range attacks and a few bombers ready to commit suicide. I hope that you can defeat them" controller="CampaignMarrowkai" points="0">
+
+<normal>1.0</normal>
+<hard>.6</hard>
+<insane>.45</insane>
+<normalHealthScale>.8</normalHealthScale>
+<normalDamageScale>1.0</normalDamageScale>
+<tip>Castle Air?</tip>
+<tipHard>Try Newbie mode pls!</tipHard>
+<player race="Elemental" statueHealth="1000">
+<statue>v</statue>
+<raceName>V's Army</raceName>
+<startingUnit>Miner Element</startingUnit>
+<startingUnit>Miner Element</startingUnit>
+<startingUnit>Miner Element</startingUnit>
+<startingUnit>Miner Element</startingUnit>
+<startingUnit>Miner Element</startingUnit>
+<startingUnit>Miner Element</startingUnit>
+<startingUnit>Fire</startingUnit>
+<startingUnit>Air</startingUnit>
+<startingUnit>Earth</startingUnit>
+<startingUnit>Water</startingUnit>
+</player>
+
+<oponent race="Chaos" statueHealth="900">
+<raceName>Kai's Army</raceName>
+<unit>Wingadon</unit>
+<unit>Dead</unit>
+<unit>Knight</unit>
+<unit>ChaosMiner</unit>
+<startingUnit>ChaosMiner</startingUnit>
+<startingUnit>ChaosMiner</startingUnit>
+<startingUnit>ChaosMiner</startingUnit>
+<startingUnit>ChaosMiner</startingUnit>
+<startingUnit>ChaosMiner</startingUnit>
+<startingUnit>ChaosMiner</startingUnit>
+<startingUnit>ChaosMiner</startingUnit>
+<startingUnit>ChaosMiner</startingUnit>
+<startingUnit>Knight</startingUnit>
+<startingUnit>Dead</startingUnit>
+<startingUnit>Dead</startingUnit>
+<startingUnit>Wingadon</startingUnit>
+<startingUnit>Wingadon</startingUnit>
+
+<UnitComposition>
+<Bomber>6</Bomber>
+<Dead>6</Dead>
+</UnitComposition>
+</oponent>
+
+
+</level>
+
+<level title="Remnants of Chaos: Meet Marrowkai" number="3" map="5" story="Alright, now we're near Kai's base. Their force seems to be very large, and there is also the appearance of a large group of monsters wielding maces. Even though we want to avoid fighting, to get to the next land, we have to go through them." controller="CampaignOne" points="0">
+
+
+<normal>1.0</normal>
+<hard>.6</hard>
+<insane>.45</insane>
+<normalHealthScale>.8</normalHealthScale>
+<normalDamageScale>1.0</normalDamageScale>
+<tip>Kill Kai</tip>
+<tipHard>Try Newbie Mode</tipHard>
+<player race="Elemental" statueHealth="1200">
+<statue>v</statue>
+<raceName>V's Army</raceName>
+<startingUnit>Miner Element</startingUnit>
+<startingUnit>Miner Element</startingUnit>
+<startingUnit>Miner Element</startingUnit>
+<startingUnit>Miner Element</startingUnit>
+<startingUnit>Miner Element</startingUnit>
+<startingUnit>Miner Element</startingUnit>
+<startingUnit>Water</startingUnit>
+<startingUnit>Air</startingUnit>
+<startingUnit>Fire</startingUnit>
+<startingUnit>Earth</startingUnit>
+</player>
+
+<oponent race="Chaos" statueHealth="1200">
+<raceName>Kai's Army</raceName>
+<gold>2000</gold>
+<unit>Giant</unit>
+<unit>Wingadon</unit>
+<unit>Dead</unit>
+<unit>Knight</unit>
+<unit>ChaosMiner</unit>
+<startingUnit>ChaosMiner</startingUnit>
+<startingUnit>ChaosMiner</startingUnit>
+<startingUnit>ChaosMiner</startingUnit>
+<startingUnit>ChaosMiner</startingUnit>
+<startingUnit>ChaosMiner</startingUnit>
+<startingUnit>ChaosMiner</startingUnit>
+<startingUnit>ChaosMiner</startingUnit>
+<startingUnit>ChaosMiner</startingUnit>
+<startingUnit>ChaosMiner</startingUnit>
+<startingUnit>Giant</startingUnit>
+<startingUnit>Giant</startingUnit>
+<startingUnit>Knight</startingUnit>
+<startingUnit>Knight</startingUnit>
+<UnitComposition>
+<Swordwrath>4</Swordwrath>
+<Ninja>15</Ninja>
+</UnitComposition>
+</oponent>
+</level>
+
+<level title="The Rebels Union" number="4" map="5" story="In the way, we meet many dangerous trap. And there are some bases there. What awaits us ahead?" controller="CampaignRebels" points="0">
+
+<normal>1.0</normal>
+<hard>.8</hard>
+<insane>.65</insane>
+<normalHealthScale>.8</normalHealthScale>
+<normalDamageScale>1.0</normalDamageScale>
+<tip>Counter early game</tip>
+<player race="Elemental" statueHealth="1500">
+<statue>v</statue>
+<raceName>V's Army</raceName>
+<startingUnit>Miner Element</startingUnit>
+<startingUnit>Miner Element</startingUnit>
+<startingUnit>Miner Element</startingUnit>
+<startingUnit>Miner Element</startingUnit>
+<startingUnit>Miner Element</startingUnit>
+<startingUnit>Miner Element</startingUnit>
+<startingUnit>Miner Element</startingUnit>
+<startingUnit>Miner Element</startingUnit>
+<startingUnit>Water</startingUnit>
+<startingUnit>Air</startingUnit>
+<startingUnit>Fire</startingUnit>
+<startingUnit>Earth</startingUnit>
+</player>
+
+<oponent race="Order" statueHealth="1500"> 
+<raceName>Rebels Union</raceName>
+<mana>400</mana>
+<unit>Swordwrath</unit>
+<unit>Spearton</unit>
+<unit>Archidon</unit>
+<unit>Ninja</unit>
+<unit>Magikill</unit>
+<unit>Monk</unit>
+<startingUnit>Miner</startingUnit>
+<startingUnit>Miner</startingUnit>
+<startingUnit>Miner</startingUnit>
+<startingUnit>Miner</startingUnit>
+<startingUnit>Miner</startingUnit>
+<startingUnit>Miner</startingUnit>
+<startingUnit>Miner</startingUnit>
+<startingUnit>Miner</startingUnit>
+<UnitComposition>
+<Monk>2</Monk>
+<Magikill>8</Magikill>
+
+</UnitComposition>
+</oponent>
+</level>
+
+<level title="Gold rush: Contra the expansion of the Order Empire" number="4" map="9" story="It's a land full of gold. And the Order is planning to use this land as a springboard to attack the Rebels Union. With the help of the Rebels, can you fight back against the Order's attack?" controller="CampaignMarrowkai" points="0">
+<normal>1.0</normal>
+<hard>.6</hard>
+<insane>.55</insane>
+<normalHealthScale>.8</normalHealthScale>
+<normalDamageScale>1.0</normalDamageScale>
+<tip>Tip: Infernos can swallow Archer</tip>
+<tipHard>Tip: Wait Rebels's Spearton exist. I'm sure it will help so much</tipHard>
+<player race="Elemental" statueHealth="1500">
+<statue>v</statue>
+<raceName>V's Army</raceName>
+<startingUnit>Fire</startingUnit>
+<startingUnit>Earth</startingUnit>
+<startingUnit>Water</startingUnit>
+<startingUnit>Air</startingUnit>
+<startingUnit>Miner Element</startingUnit>
+<startingUnit>Miner Element</startingUnit>
+<startingUnit>Miner Element</startingUnit>
+<startingUnit>Miner Element</startingUnit>
+<startingUnit>Miner Element</startingUnit>
+<startingUnit>Miner Element</startingUnit>
+<startingUnit>Miner Element</startingUnit>
+<startingUnit>Miner Element</startingUnit>
+<startingUnit>Miner Element</startingUnit>
+<startingUnit>Miner Element</startingUnit>
+<startingUnit>Miner Element</startingUnit>
+<startingUnit>Miner Element</startingUnit>
+<startingUnit>Miner Element</startingUnit>
+<startingUnit>Miner Element</startingUnit>
+</player>
+
+<oponent race="Order" statueHealth="1500">
+<raceName>Order Army</raceName>
+<mana>3000</mana>
+<gold>1000</gold>
+<unit>Spearton</unit>
+<unit>Archidon</unit>
+<unit>Swordwrath</unit>
+<unit>Monk</unit>
+<unit>Ninja</unit>
+<startingUnit>Miner</startingUnit>
+<startingUnit>Miner</startingUnit>
+<startingUnit>Miner</startingUnit>
+<startingUnit>Miner</startingUnit>
+<startingUnit>Miner</startingUnit>
+<startingUnit>Miner</startingUnit>
+<startingUnit>Miner</startingUnit>
+<startingUnit>Miner</startingUnit>
+<startingUnit>Miner</startingUnit>
+<startingUnit>Miner</startingUnit>
+<startingUnit>Miner</startingUnit>
+<startingUnit>Miner</startingUnit>
+<startingUnit>Miner</startingUnit>
+<startingUnit>Miner</startingUnit>
+<startingUnit>Spearton</startingUnit>
+<startingUnit>Archidon</startingUnit>
+<startingUnit>Swordwrath</startingUnit>
+<startingUnit>Monk</startingUnit>
+<startingUnit>Monk</startingUnit>
+<UnitComposition>
+<Swordwrath>6</Swordwrath>
+<Spearton>8</Spearton>
+<Ninja>3</Ninja>
+<Monk>3</Monk>
+</UnitComposition>
+</oponent>
+</level>
+
+<level title="Desert Land: Order's first line of defense and attack" number="6" map="3" story="After their defeat at Westwind, we tracked them back to their fortress in Desert Land, formerly known as No Man's Land. I heard their army there is very elite. Be very careful" controller="CampaignCutScene1" points="0">
+
+<normal>1.2</normal>
+<hard>.8</hard>
+<insane>.65</insane>
+<normalHealthScale>.8</normalHealthScale>
+<normalDamageScale>1.0</normalDamageScale>
+<tip>Tip: Possess Enslaved Giant is good choice.</tip>
+<tipHard>Tip: Earth can use to tank 'cause it's cheap and training fast.</tipHard>
+<player race="Elemental" statueHealth="1500">
+<statue>v</statue>
+<raceName>V's Army</raceName>
+<startingUnit>Miner Element</startingUnit>
+<startingUnit>Miner Element</startingUnit>
+<startingUnit>Miner Element</startingUnit>
+<startingUnit>Miner Element</startingUnit>
+<startingUnit>Miner Element</startingUnit>
+<startingUnit>Miner Element</startingUnit>
+<startingUnit>Fire</startingUnit>
+<startingUnit>Earth</startingUnit>
+<startingUnit>Water</startingUnit>
+<startingUnit>Air</startingUnit>
+</player>
+
+<oponent race="Order" statueHealth="1500">
+<raceName>Order's gatekeeper</raceName>
+<unit>Swordwrath</unit>
+<unit>Spearton</unit>
+<unit>Archidon</unit>
+<unit>Monk</unit>
+<unit>EnslavedGiant</unit>
+<startingUnit>Miner</startingUnit>
+<startingUnit>Miner</startingUnit>
+<startingUnit>Miner</startingUnit>
+<startingUnit>Miner</startingUnit>
+<startingUnit>Miner</startingUnit>
+<startingUnit>Miner</startingUnit>
+<startingUnit>EnslavedGiant</startingUnit>
+<startingUnit>Spearton</startingUnit>
+<startingUnit>Spearton</startingUnit>
+</oponent>
+</level>
+
+
+<Order>
+<UnitComposition>
+<Miner>16</Miner>
+<Swordwrath>7</Swordwrath>
+<Archidon>8</Archidon>
+<Spearton>6</Spearton>
+<Ninja>4</Ninja>
+<FlyingCrossbowman>6</FlyingCrossbowman>
+<Monk>2</Monk>
+<Magikill>4</Magikill>
+<EnslavedGiant>3</EnslavedGiant>
+</UnitComposition>
+</Order>
+
+<Chaos>
+<UnitComposition>
+<ChaosMiner>16</ChaosMiner>
+<Bomber>8</Bomber>
+<Wingadon>5</Wingadon>
+<SkelatalMage>2</SkelatalMage>
+<Dead>5</Dead>
+<Cat>6</Cat>
+<Knight>5</Knight>
+<Giant>2</Giant>
+</UnitComposition>
+</Chaos>
+</Campaign>
